@@ -30,24 +30,43 @@
 
 <body>
     <!-- Nav Bar Start -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">Briercliffe <span>Chippery</span></a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="navigation-wrap bg-light start-header start-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-md navbar-light">
 
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto">
-                    <a href="#about" class="nav-item nav-link active">Home</a>
-                    <a href="#menu" class="nav-item nav-link">Menu</a>
+                        <a class="navbar-brand" target="_blank">Briercliffe Chippery</a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                <li class="navigation-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="navigation-link" href="#specialoffers">Special Offers</a>
+                                </li>
+                                <li class="navigation-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="navigation-link" href="#menu">Food Menu</a>
+                                </li>
+
+                                <li class="navigation-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="navigation-link" href="#contactus">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
 
     <!-- About Start -->
-    <div id="about" class="about">
+    <div id="about" class="about content">
         <div class="container">
             <div class="row align-items-center">
                 <!-- <div class="col-lg-6">
@@ -85,7 +104,7 @@
 
 
     <!-- Food Start -->
-    <div class="food">
+    <div id="specialoffers" class="food">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-4">
@@ -1119,7 +1138,7 @@
 
 
     <!-- Footer Start -->
-    <div class="footer">
+    <div id="contactus" class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
