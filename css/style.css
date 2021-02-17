@@ -251,7 +251,7 @@ a:focus {
 .absolute-center {
 	position: absolute;
 	top: 50%;
-	left: 0;
+	/* left: 0; */
 	width: 100%;
   margin-top: 40px;
 	transform: translateY(-50%);
@@ -864,10 +864,20 @@ a:focus {
 @media (max-width: 480px) {
     .about .about-img {
         display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
     }
+
+    
+    .section-header h2{
+        text-align: center;
+    }
+
+    .about-text{
+        text-align: center;
+    }
+
 }
 
 
