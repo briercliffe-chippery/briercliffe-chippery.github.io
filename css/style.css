@@ -1,14 +1,16 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 body {
     color: #757575;
     background: #ffffff;
     font-family: 'open sans', sans-serif;
-    /* background-image: url('../img/abstract-background.jpg');
-	background-position: center;
-    background-repeat: repeat;
-    background-size: 50%; */
+
 }
 
 h1,
@@ -27,6 +29,7 @@ a {
     color: #0a2eb0;
     transition: .3s;
 }
+
 
 a:hover,
 a:active,
@@ -92,6 +95,10 @@ a:focus {
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
     font-size: inherit;
     margin-left: 0;
+}
+
+.anchor{
+    padding-top: 60px;
 }
 
 
@@ -601,7 +608,7 @@ a:focus {
 .food {
     position: relative;
     width: 100%;
-    padding: 90px 0 60px 0;
+    /* padding: 90px 0 60px 0; */
     /* margin: 45px 0; */
     background: rgba(0, 0, 0, .04);
 }
@@ -966,7 +973,7 @@ a:focus {
 /*******************************/
 .menu {
     position: relative;
-    padding: 45px 0 15px 0;
+    /* padding: 45px 0 15px 0; */
 }
 
 .menu .menu-tab {
