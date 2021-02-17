@@ -655,7 +655,7 @@ a:focus {
 
 .about .about-img {
     position: relative;
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 
 .about .about-img img {
@@ -790,7 +790,7 @@ a:focus {
 
 @media (max-width: 991.98px) {
     .about .about-img {
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
     }
 }
 
@@ -1861,9 +1861,6 @@ a:focus {
     background: rgba(0, 0, 0, .04);
 }
 
-.footer .container {
-    padding-bottom: 40px;
-}
 
 .footer .footer-contact,
 .footer .footer-link,
@@ -1879,6 +1876,7 @@ a:focus {
     position: relative;
     margin-bottom: 30px;
     padding-bottom: 10px;
+    margin-top: 20px;
     font-size: 22px;
     font-weight: 700;
     color: #0a2eb0;
@@ -1993,3 +1991,5 @@ a:focus {
 .footer .copyright p a:hover {
     color: #570a9a;
 }
+
+
