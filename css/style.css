@@ -975,6 +975,23 @@ a:focus {
     display: block;
 }
 
+.pizza-table tbody tr td h5 strong{
+    color: #0a2eb0;
+}
+
+.pizza-table thead tr th {
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pizza-table .menu-text p {
+    float:right;
+  }
+  
+
 @media(max-width: 575.98px) {
     .menu .menu-text p,
     .menu .menu-text h3,
