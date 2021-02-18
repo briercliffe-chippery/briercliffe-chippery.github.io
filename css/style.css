@@ -1128,6 +1128,10 @@ a:focus {
       display:flex;
   }
 
+  .margin-auto{
+      margin: auto;
+  }
+
 
 /*******************************/
 /*********** Team CSS **********/
