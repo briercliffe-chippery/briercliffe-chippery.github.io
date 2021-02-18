@@ -1107,6 +1107,27 @@ a:focus {
     }
 }
 
+/* Circular */
+.circular-portrait {
+    
+    width: 20vw;
+    height: 20vw;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom:5%;
+    display: flex;
+  }
+  
+  .circular-portrait img {
+    width: 100%;
+    height: auto;
+  }
+
+  .flex{
+      display:flex;
+  }
+
 
 /*******************************/
 /*********** Team CSS **********/
