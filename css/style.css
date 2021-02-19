@@ -134,7 +134,7 @@ a:focus {
 	z-index: 1000;
 	-webkit-transition : all 0.3s ease-out;
     transition : all 0.3s ease-out;
-    background-image: linear-gradient(to right top, #0d1454, #3848d1);
+    background-image: linear-gradient(to right, #0d1454, #3848d1);
 
 }
 .navbar{
@@ -1031,6 +1031,16 @@ a:focus {
     width: calc(100% - 100px);
 }
 
+.menu-text-info h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #0d1454 ;
+}
+
+.menu-text-info h5{
+    color: #0d1454 ;
+}
+
 .menu .menu-text h3 {
     position: relative;
     display: block;
@@ -1072,7 +1082,7 @@ a:focus {
 }
 
 .pizza-table tbody tr td h5 strong{
-    color: #0d1454;
+    color: #3848d1;
 }
 
 
@@ -1083,6 +1093,7 @@ a:focus {
 .pizza-table .menu-text p {
     float:right;
   }
+
   
 
 @media(max-width: 575.98px) {
