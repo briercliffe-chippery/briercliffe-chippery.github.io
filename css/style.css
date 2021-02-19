@@ -39,6 +39,10 @@ a:focus {
     text-decoration: none;
 }
 
+hr {
+    border-color: #3848d1;
+}
+
 .btn.custom-btn {
     padding: 12px 25px;
     font-family: 'Nunito', sans-serif;
@@ -1093,6 +1097,10 @@ a:focus {
 .pizza-table .menu-text p {
     float:right;
   }
+
+ .primary h4{
+     color: #0d1454;
+ } 
 
   
 
