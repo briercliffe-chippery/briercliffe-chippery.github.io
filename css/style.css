@@ -616,7 +616,8 @@ hr {
     width: 100%;
     /* padding: 90px 0 60px 0; */
     /* margin: 45px 0; */
-    background: rgba(0, 0, 0, .04);
+    /* background: rgba(0, 0, 0, .04); */
+    background-image: linear-gradient(to right bottom, #0d1454, #3848d1);
 }
 
 .food .food-item {
@@ -708,7 +709,7 @@ hr {
 
 }
 
-.about::before{
+.background-wrapper::before{
     content: "";
     position: absolute;
       top: 0px;
@@ -980,7 +981,7 @@ hr {
 /*******************************/
 .menu {
     position: relative;
-    /* padding: 45px 0 15px 0; */
+    padding-bottom: 2%;
 }
 
 .menu .menu-tab {
@@ -1067,7 +1068,7 @@ hr {
     display: inline-block;
     float: left;
     padding-right: 5px;
-    background: #ffffff;
+    /* background: #ffffff; */
 }
 
 .menu .menu-text h3 strong {
@@ -1075,7 +1076,7 @@ hr {
     float: right;
     padding-left: 5px;
     color: #3848d1;
-    background: #ffffff;
+    /* background: #ffffff; */
 }
 
 .menu .menu-text p {
@@ -1996,7 +1997,7 @@ hr {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
+    /* margin-top: 45px; */
     padding-top: 40px;
     background: rgba(0, 0, 0, .04);
 }
