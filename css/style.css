@@ -1303,6 +1303,7 @@ hr {
     transition: .3s;
     overflow: hidden;
     text-align: center;
+    background-color: gainsboro;
 }
 
 .testimonial .testimonial-item:hover {
@@ -1335,7 +1336,7 @@ hr {
 }
 
 .testimonial .testimonial-item h3 {
-    color: #999999;
+    color: #3848d1;
     font-size: 1.75rem;
     font-weight: 600;
     margin: 0;
@@ -1360,8 +1361,8 @@ hr {
 }
 
 .owl-prev {
-    width: 15px;
-    height: 100px;
+    /* width: 15px;
+    height: 100px; */
     position: absolute;
     top: 40%;
     margin-left: -20px;
