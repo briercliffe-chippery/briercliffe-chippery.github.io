@@ -990,7 +990,7 @@ hr {
 
 .menu .menu-tab img {
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 50%;
 }
 
 .menu .menu-tab .nav.nav-pills .nav-link {
