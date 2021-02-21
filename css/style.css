@@ -1380,6 +1380,18 @@ hr {
 }
 /* .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;} */
 
+.owl-carousel .nav-btn{
+
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    top: 100px !important;
+    background-color: #0d1454;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
 
 /*******************************/
 /*********** Blog CSS **********/
