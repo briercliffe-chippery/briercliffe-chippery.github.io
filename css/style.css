@@ -1279,8 +1279,8 @@ hr {
     position: relative;
     width: 100%;
     padding: 90px 0;
-    margin: 45px 0;
     background: rgba(0, 0, 0, .04);
+    /* background-image: linear-gradient(to right bottom, #0d1454, #3848d1); */
 }
 
 .testimonial .testimonials-carousel {
@@ -1302,6 +1302,7 @@ hr {
     box-shadow: 0 0 15px rgba(0, 0, 0, .08);
     transition: .3s;
     overflow: hidden;
+    text-align: center;
 }
 
 .testimonial .testimonial-item:hover {
@@ -1328,14 +1329,14 @@ hr {
 
 .testimonial .testimonial-item h2 {
     position: relative;
-    font-size: 18px;
     font-weight: 700;
-    margin-bottom: 2px;
+    font-size: 30px;
+    color: #0d1454;
 }
 
 .testimonial .testimonial-item h3 {
     color: #999999;
-    font-size: 16px;
+    font-size: 1.75rem;
     font-weight: 600;
     margin: 0;
 }
@@ -2139,4 +2140,10 @@ hr {
     }
 }
 
-
+.custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+    background-color: #3848d1;
+  }
+  
