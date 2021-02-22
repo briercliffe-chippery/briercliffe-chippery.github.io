@@ -1086,6 +1086,10 @@ hr {
     display: block;
 }
 
+.pizza-table {
+    margin-bottom: 2rem;;
+}
+
 .pizza-table tbody tr td h5 strong{
     color: #3848d1;
 }
