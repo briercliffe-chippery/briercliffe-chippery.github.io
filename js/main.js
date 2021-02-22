@@ -72,7 +72,7 @@
         new Typed('.typed', {
             strings: typed_strings,
             loop: true,
-            typeSpeed: 100,
+            typeSpeed: 50,
             backSpeed: 50,
             backDelay: 2000
         });
@@ -107,29 +107,6 @@
             '<div class=\'nav-btn\'><i class="fa fa-angle-left" aria-hidden="true"></div>',
             '<div class=\'nav-btn\'><i class="fa fa-angle-right" aria-hidden="true"></i></div>'
         ],
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            992: {
-                items: 3
-            }
-        }
-    });
-
-
-    // Testimonials carousel
-    $(".testimonials-carousel").owlCarousel({
-        center: true,
-        autoplay: true,
-        dots: true,
-        loop: true,
         responsive: {
             0: {
                 items: 1
