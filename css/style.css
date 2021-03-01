@@ -89,7 +89,6 @@ hr {
       transform: rotate(360deg);
     }
   }
-  
 
 .btn.custom-btn {
     padding: 12px 25px;
@@ -1154,6 +1153,17 @@ hr {
  .primary h4{
      color: #0d1454;
  } 
+
+ .menu .drink-item {
+    position: relative;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+ }
+ .menu .drink-item img {
+     width: 60px;
+     margin-right: 10px;
+ }
 
   
 
