@@ -159,13 +159,14 @@ hr {
 .lobster{
     font-family: 'Lobster', cursive;
     font-size: 1.75em;
+    vertical-align: middle;
 }
 
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
 
-.start-header {
+/* .start-header {
 	opacity: 1;
 	transform: translateY(0);
 	padding: 20px 0;
@@ -183,7 +184,7 @@ hr {
 	height: 24px;
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
-}
+} */
 .navigation-wrap{
 	position: fixed;
 	width: 100%;
@@ -209,12 +210,12 @@ hr {
 
 
 .navbar-brand img{
-	height: 28px;
+	height: 4em;
 	width: auto;
-	display: block;
-  filter: brightness(10%);
-	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
+	/* display: block; */
+  /* filter: brightness(10%); */
+	/* -webkit-transition : all 0.3s ease-out;
+	transition : all 0.3s ease-out; */
 }
 .navbar-toggler {
 	float: right;
