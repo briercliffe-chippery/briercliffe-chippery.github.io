@@ -1082,6 +1082,27 @@ hr {
     margin-right: 20px;
 }
 
+.menu-header-images {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    vertical-align:middle;
+    height: 100px;
+}
+#content {
+    display: block;
+    margin: 0px;
+    padding-bottom: 70px;
+    position: relative;
+    top: 90px;
+    height: auto;
+    max-width: auto;
+    overflow-y: hidden;
+    overflow-x:auto;
+    word-wrap:normal;
+    white-space:nowrap;
+}
+
 .menu .menu-img img {
     width: 100%;
     border-radius: 100px;
