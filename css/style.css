@@ -1208,7 +1208,7 @@ hr {
 
   
 
-@media(max-width: 575.98px) {
+@media(max-width: 800px) {
     .menu .menu-text p,
     .menu .menu-text h3,
     .menu .menu-text h3 span,
@@ -1230,6 +1230,10 @@ hr {
     
     .menu .menu-text h3::after {
         display: none;
+    }
+
+    .pizza-table tbody tr td {
+        padding: 10px 10px 10px 0px;
     }
 }
 
