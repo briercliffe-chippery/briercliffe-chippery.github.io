@@ -1202,7 +1202,21 @@ hr {
 
 .pizza-table .menu-text p {
     float:right;
-    margin-top: 0px;
+  }
+
+  .pizza-table thead tr th {
+      font-weight: bolder;
+      color: black;
+  }
+
+  .border-bottom-cell {
+    border-bottom: 2px dotted #cccccc;
+
+  }
+
+  .table-price {
+      font-size: 1.25rem !important;
+      color: #3848d1;
   }
 
  .primary h4{
