@@ -570,7 +570,7 @@ hr {
     }
 
     .section-header span {
-        font-size: 40px;
+        font-size: 45px;
         font-weight: 600;
     }
 }
@@ -581,7 +581,7 @@ hr {
     }
 
     .section-header span {
-        font-size: 35px;
+        font-size: 45px;
         font-weight: 600;
     }
 }
@@ -592,7 +592,7 @@ hr {
     }
 
     .section-header span {
-        font-size: 30px;
+        font-size: 45px;
         font-weight: 600;
     }
 }
@@ -2149,21 +2149,21 @@ hr {
     color: #454545;
 }
 
-.footer .footer-contact h2,
-.footer .footer-link h2,
-.footer .footer-newsletter h2 {
+.footer .footer-contact span,
+.footer .footer-link span,
+.footer .footer-newsletter span {
     position: relative;
     margin-bottom: 30px;
     padding-bottom: 10px;
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 700;
     color: #0d1454;
 }
 
-.footer .footer-contact h2::after,
-.footer .footer-link h2::after,
-.footer .footer-newsletter h2::after {
+.footer .footer-contact span::after,
+.footer .footer-link span::after,
+.footer .footer-newsletter span::after {
     position: absolute;
     content: "";
     width: 45px;
@@ -2171,6 +2171,13 @@ hr {
     bottom: 0;
     left: 0;
     background: #3848d1;
+}
+
+@media (max-width: 991.98px) {
+    #contact-us-header {
+        margin-top: 40px;
+    }
+
 }
 
 .footer .footer-link a {
