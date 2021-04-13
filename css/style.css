@@ -200,7 +200,7 @@ hr {
 	padding: 0;
 }
 
-.navbar-brand{
+.navbar-brand h1{
     color: white;
 }
 
@@ -208,15 +208,6 @@ hr {
     color: white;
 }
 
-
-.navbar-brand img{
-	height: 4em;
-	width: auto;
-	/* display: block; */
-  /* filter: brightness(10%); */
-	/* -webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out; */
-}
 .navbar-toggler {
 	float: right;
 	border: none;
