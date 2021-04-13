@@ -1135,22 +1135,34 @@ hr {
     color: #0d1454 ;
 }
 
-.menu .menu-text h3 {
+.menu .menu-text span {
+
     position: relative;
-    display: block;
+    /* display: block; */
     font-size: 22px;
     font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    
+
 }
 
-.menu .menu-text h3::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0;
-    top: 26px;
-    left: 0;
-    border-top: 2px dotted #cccccc;
-    z-index: -1;
+.menu-text-header {
+
+    border-bottom: 2px dotted #cccccc;
+
+}
+
+.menu-title{
+    color: black;
+}
+
+.menu-price {
+    display: inline-block;
+    font-weight: bold;
+    float: right;
+    padding-left: 5px;
+    color: #3848d1;
+    /* background: #ffffff; */
 }
 
 .menu .menu-text h3 span {
@@ -1160,7 +1172,7 @@ hr {
     /* background: #ffffff; */
 }
 
-.menu .menu-text h3 strong {
+.menu .menu-text strong {
     display: inline-block;
     float: right;
     padding-left: 5px;
