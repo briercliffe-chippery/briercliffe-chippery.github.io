@@ -1103,6 +1103,17 @@ hr {
     margin-right: 20px;
 }
 
+.menu-section-header {
+    color: #0d1454;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.menu-table-header{
+    color: #0d1454;
+    font-family: 'Nunito', sans-serif;
+}
+
 .menu-header-images {
     display: inline;
     margin: 0px;
@@ -1212,10 +1223,6 @@ hr {
     float:right;
   }
 
-  .pizza-table thead tr th {
-      font-weight: bolder;
-      color: black;
-  }
 
   .border-bottom-cell {
     border-bottom: 2px dotted #cccccc;
