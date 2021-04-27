@@ -1459,7 +1459,7 @@ hr {
     margin-bottom: 10px;
 }
 
-.testimonial .testimonial-item h2 {
+.testimonial .testimonial-item span {
     position: relative;
     font-weight: 700;
     font-size: 30px;
