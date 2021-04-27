@@ -1133,7 +1133,7 @@ hr {
     width: calc(100% - 100px);
 }
 
-.menu-text-info h3{
+.menu-text-info{
     font-size: 22px;
     font-weight: 700;
     color: #0d1454 ;
@@ -1446,8 +1446,6 @@ hr {
     text-align: center;
 }
 
-.testimonial .testimonial-item:hover {
-}
 
 .testimonial .testimonial-img {
     position: relative;
@@ -1467,14 +1465,14 @@ hr {
     margin-bottom: 10px;
 }
 
-.testimonial .testimonial-item span {
+.testimonial-item-name {
     position: relative;
     font-weight: 700;
     font-size: 30px;
     color: #0d1454;
 }
 
-.testimonial .testimonial-item h3 {
+.testimonial-item-price {
     color: #3848d1;
     font-size: 1.75rem;
     font-weight: 600;
