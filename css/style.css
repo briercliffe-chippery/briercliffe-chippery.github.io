@@ -1249,6 +1249,11 @@ hr {
      margin-right: 10px;
  }
 
+ .menu .milkshake-img img {
+    border-radius: 0%;
+    max-width: 80%;
+ }
+
   
 
 @media(max-width: 800px) {
