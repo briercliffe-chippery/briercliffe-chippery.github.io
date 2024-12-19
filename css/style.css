@@ -158,7 +158,7 @@ hr {
 /* Fonts */
 .lobster{
     font-family: 'Lobster', cursive;
-    font-size: 1.75em;
+    font-size: 1.2em;
     vertical-align: middle;
 }
 
@@ -1141,7 +1141,7 @@ hr {
 }
 
 .menu .menu-text {
-    width: calc(100% - 100px);
+    width: 100%;
 }
 
 .menu-text-info{
@@ -1158,7 +1158,7 @@ hr {
 
     position: relative;
     /* display: block; */
-    font-size: 22px;
+    /*font-size: 22px;*/
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
     
@@ -1230,7 +1230,7 @@ hr {
   }
 
   .table-price {
-      font-size: 1.25rem !important;
+      /*font-size: 1.25rem !important;*/
       color: #3848d1;
   }
 
