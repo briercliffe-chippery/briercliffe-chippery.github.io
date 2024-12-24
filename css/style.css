@@ -227,7 +227,7 @@ hr {
 }
 .navbar-light .navbar-toggler-icon:after, 
 .navbar-light .navbar-toggler-icon:before{
-	width: 24px;
+    width: 24px;
 	position: absolute;
 	height: 1px;
 	background-color: #000;
@@ -789,15 +789,15 @@ hr {
 .background-wrapper::before{
     content: "";
     position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-    background-image: url('../img/abstract-background.jpg');
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    background-image: url('../img/background/brick-3-bg.jpg');
 	background-position: center;
     background-repeat: repeat;
     background-size: 100%;
-    opacity: 0.25;
+    opacity: 0.4;
     
 }
 
@@ -1136,7 +1136,7 @@ hr {
 }
 
 .menu .menu-img img {
-    width: 100%;
+    /*width: 100%;*/
     border-radius: 100px;
 }
 
@@ -1173,6 +1173,7 @@ hr {
 
 .menu-title{
     color: black;
+    text-transform: uppercase;
 }
 
 .menu-price {
@@ -1233,6 +1234,10 @@ hr {
       /*font-size: 1.25rem !important;*/
       color: #3848d1;
   }
+
+ .primary{
+    margin-top: 1em;;
+ }
 
  .primary h4{
      color: #0d1454;
@@ -1452,7 +1457,7 @@ hr {
     justify-content: center;
     flex-direction: column;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 15px darkblue;
     transition: .3s;
     overflow: hidden;
     text-align: center;
@@ -1482,6 +1487,7 @@ hr {
     font-weight: 700;
     font-size: 30px;
     color: #0d1454;
+    text-transform: uppercase;
 }
 
 .testimonial-item-price {
