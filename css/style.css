@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 /*******************************/
 /********* General CSS *********/
@@ -11,7 +12,7 @@ html {
 body {
     color: #757575;
     background: #ffffff;
-    font-family: 'open sans', sans-serif;
+    font-family: 'Montserrat', serif;
 
 }
 
@@ -22,11 +23,11 @@ h4,
 h5, 
 h6 {
     color: #454545;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
 }
 
 a {
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
     font-weight: 600;
     color: #0d1454;
     transition: .3s;
@@ -94,7 +95,7 @@ hr {
 
 .btn.custom-btn {
     padding: 12px 25px;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
@@ -554,7 +555,7 @@ hr {
     font-size: 45px;
     font-weight: 700;
     color: #0d1454;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
 }
 
 .section-header p {
@@ -1106,12 +1107,12 @@ hr {
 .menu-section-header {
     color: #0d1454;
     font-size: 1.5rem;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
 }
 
 .menu-table-header{
     color: #0d1454;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
 }
 
 .menu-header-images {
@@ -1160,7 +1161,7 @@ hr {
     /* display: block; */
     /*font-size: 22px;*/
     font-weight: 700;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
     
 
 }
@@ -1257,6 +1258,9 @@ hr {
  .menu .milkshake-img img {
     border-radius: 0%;
     max-width: 80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
  }
 
   
