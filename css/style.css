@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 /*******************************/
 /********* General CSS *********/
@@ -11,7 +12,7 @@ html {
 body {
     color: #757575;
     background: #ffffff;
-    font-family: 'open sans', sans-serif;
+    font-family: 'Montserrat', serif;
 
 }
 
@@ -22,11 +23,11 @@ h4,
 h5, 
 h6 {
     color: #454545;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
 }
 
 a {
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
     font-weight: 600;
     color: #0d1454;
     transition: .3s;
@@ -94,7 +95,7 @@ hr {
 
 .btn.custom-btn {
     padding: 12px 25px;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
@@ -227,7 +228,7 @@ hr {
 }
 .navbar-light .navbar-toggler-icon:after, 
 .navbar-light .navbar-toggler-icon:before{
-	width: 24px;
+    width: 24px;
 	position: absolute;
 	height: 1px;
 	background-color: #000;
@@ -554,7 +555,7 @@ hr {
     font-size: 45px;
     font-weight: 700;
     color: #0d1454;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
 }
 
 .section-header p {
@@ -789,15 +790,15 @@ hr {
 .background-wrapper::before{
     content: "";
     position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-    background-image: url('../img/abstract-background.jpg');
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    background-image: url('../img/white-brick2.png');
 	background-position: center;
     background-repeat: repeat;
     background-size: 100%;
-    opacity: 0.25;
+    opacity: 0.2;
     
 }
 
@@ -1099,19 +1100,19 @@ hr {
 }
 
 .menu .menu-img {
-    width: 80px;
-    margin-right: 20px;
+    width: 11em;
+    margin-right: 0px;
 }
 
 .menu-section-header {
     color: #0d1454;
     font-size: 1.5rem;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
 }
 
 .menu-table-header{
     color: #0d1454;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
 }
 
 .menu-header-images {
@@ -1136,12 +1137,12 @@ hr {
 }
 
 .menu .menu-img img {
-    width: 100%;
+    /*width: 100%;*/
     border-radius: 100px;
 }
 
 .menu .menu-text {
-    width: calc(100% - 100px);
+    width: 100%;
 }
 
 .menu-text-info{
@@ -1154,13 +1155,18 @@ hr {
     color: #0d1454 ;
 }
 
+.deal-banner img {
+    border-radius: 0% !important;
+    margin-bottom: 1em;
+}
+
 .menu .menu-text span {
 
     position: relative;
     /* display: block; */
-    font-size: 22px;
+    /*font-size: 22px;*/
     font-weight: 700;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
     
 
 }
@@ -1173,6 +1179,7 @@ hr {
 
 .menu-title{
     color: black;
+    text-transform: uppercase;
 }
 
 .menu-price {
@@ -1230,9 +1237,13 @@ hr {
   }
 
   .table-price {
-      font-size: 1.25rem !important;
+      /*font-size: 1.25rem !important;*/
       color: #3848d1;
   }
+
+ .primary{
+    margin-top: 1em;;
+ }
 
  .primary h4{
      color: #0d1454;
@@ -1252,6 +1263,15 @@ hr {
  .menu .milkshake-img img {
     border-radius: 0%;
     max-width: 80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+ }
+
+ .center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  }
 
   
@@ -1447,12 +1467,13 @@ hr {
     position: relative;
     margin: 15px;
     padding: 30px;
+    padding-top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 15px darkblue;
     transition: .3s;
     overflow: hidden;
     text-align: center;
@@ -1461,9 +1482,9 @@ hr {
 
 .testimonial .testimonial-img {
     position: relative;
-    width: 100px;
+    width: 150px;
     border-radius: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     overflow: hidden;
 }
 
@@ -1482,6 +1503,7 @@ hr {
     font-weight: 700;
     font-size: 30px;
     color: #0d1454;
+    text-transform: uppercase;
 }
 
 .testimonial-item-price {
