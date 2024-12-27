@@ -794,11 +794,11 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
-    background-image: url('../img/background/brick-3-bg.jpg');
+    background-image: url('../img/white-brick2.png');
 	background-position: center;
     background-repeat: repeat;
     background-size: 100%;
-    opacity: 0.4;
+    opacity: 0.2;
     
 }
 
@@ -1100,8 +1100,8 @@ hr {
 }
 
 .menu .menu-img {
-    width: 80px;
-    margin-right: 20px;
+    width: 11em;
+    margin-right: 0px;
 }
 
 .menu-section-header {
@@ -1153,6 +1153,11 @@ hr {
 
 .menu-text-info h5{
     color: #0d1454 ;
+}
+
+.deal-banner img {
+    border-radius: 0% !important;
+    margin-bottom: 1em;
 }
 
 .menu .menu-text span {
@@ -1261,6 +1266,12 @@ hr {
     display:block;
     margin-left:auto;
     margin-right:auto;
+ }
+
+ .center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  }
 
   
@@ -1456,6 +1467,7 @@ hr {
     position: relative;
     margin: 15px;
     padding: 30px;
+    padding-top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1470,9 +1482,9 @@ hr {
 
 .testimonial .testimonial-img {
     position: relative;
-    width: 100px;
+    width: 150px;
     border-radius: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     overflow: hidden;
 }
 
